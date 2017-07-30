@@ -3,7 +3,7 @@
 
 namespace PathfinderCharacterAfterNext {
 
-int AbstractModifier::priority() {
+int AbstractModifier::priority() const {
     return 0;
 }
 

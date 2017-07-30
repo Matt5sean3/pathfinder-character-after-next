@@ -3,7 +3,7 @@
 
 namespace PathfinderCharacterAfterNext {
 
-int StaticModifier::modify(int currentValue) {
+int StaticModifier::modify(int currentValue) const {
     return _setPoint;
 }
 

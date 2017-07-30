@@ -3,7 +3,7 @@
 
 namespace PathfinderCharacterAfterNext {
 
-int AbstractModifiable::get() {
+int AbstractModifiable::get() const {
     return 0;
 }
 

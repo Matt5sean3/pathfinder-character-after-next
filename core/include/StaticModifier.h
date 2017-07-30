@@ -9,7 +9,7 @@ private:
 public:
     StaticModifier(int setPoint);
     virtual int priority();
-    virtual int modify(int currentValue);
+    virtual int modify(int currentValue) const;
 };
 
 }

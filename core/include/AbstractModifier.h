@@ -7,8 +7,9 @@
 namespace PathfinderCharacterAfterNext {
 
 class AbstractModifier {
-    virtual int priority();
-    virtual int modify(int currentValue);
+public:
+    virtual int priority() const;
+    virtual int modify(int currentValue) const;
 };
 
 typedef std::vector<AbstractModifier> ModifierList;

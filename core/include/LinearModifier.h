@@ -9,7 +9,7 @@ private:
     int _adjustment;
 public:
     LinearModifier(int adjustment);
-    virtual int modify(int currentValue);
+    virtual int modify(int currentValue) const;
 };
 
 }

@@ -9,10 +9,10 @@ add_library(pcan_core
     src/AbstractModifier/modify.cxx
     src/AbstractModifier/priority.cxx
 
-    src/LinearModifier/constructor.cxx
+    src/LinearModifier/LinearModifier.cxx
     src/LinearModifier/modify.cxx
 
-    src/StaticModifier/constructor.cxx
+    src/StaticModifier/StaticModifier.cxx
     src/StaticModifier/modify.cxx
     src/StaticModifier/priority.cxx
     
